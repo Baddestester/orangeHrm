@@ -1,0 +1,8 @@
+{
+
+  "usernameField":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input", 
+  "passwordField":":nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input",
+  "loginButton": ".oxd-button",
+  "username": "Admin",
+  "password": "admin123"
+}
