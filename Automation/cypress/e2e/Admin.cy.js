@@ -13,7 +13,7 @@ describe("Admin Functionality Test", () => {
      it('Verify if admin feature is functional', () => {
         cy.get(':nth-child(1) > .oxd-main-menu-item > .oxd-text').click()
     })
-     it.only('Verify if User Management feature is valid', () => {
+     it('Verify if User Management feature is valid', () => {
         cy.get(':nth-child(1) > .oxd-main-menu-item > .oxd-text').click()
         cy.get(':nth-child(2) > .oxd-input').type('BrianTest011')
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text--after > .oxd-icon').click()
